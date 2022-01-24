@@ -7,47 +7,50 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-/* .extra {
-  position: relative;
-} */
+/* hero */
 .theme-btn {
-  padding: 10px 35px;
-  border-radius: 30px;
-  color: #502913;
-  font-size: 20px;
-  font-weight: 500;
-  transition: 1s linear;
+  padding: 10px 35px !important;
+  border-radius: 30px !important;
+  color: #502913 !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  transition: 1s linear !important;
 }
 .theme-btn:hover {
-  border: 1px solid #502913;
-  border-radius: 30px;
-  color: #502913;
+  border: 1px solid #502913 !important;
+  border-radius: 30px !important;
+  color: #502913 !important;
 }
 .theme-color {
   color: #502913 !important;
 }
-.card-btn1 {
-  padding: 7px 40px;
-  border-radius: 30px;
-  color: #502913;
-  font-size: 15px;
-  font-weight: 500;
+/* toast */
+.toast-border {
+  border-left: 5px solid #3f87f5 !important;
 }
-.card-btn2 {
-  padding: 7px 40px;
-  border-radius: 30px;
-  color: #502913;
-  font-size: 15px;
-  font-weight: 500;
-  transition: 1s linear;
+/* package */
+.package-btn1 {
+  padding: 7px 40px !important;
+  border-radius: 30px !important;
+  color: #502913 !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
 }
-.card-btn1:hover,
-.card-btn2:hover {
-  border: 1px solid #502913;
-  border-radius: 30px;
+.package-btn2 {
+  padding: 7px 40px !important;
+  border-radius: 30px !important;
+  color: #502913 !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  transition: 1s linear !important;
+}
+.package-btn1:hover,
+.package-btn2:hover {
+  border: 1px solid #502913 !important;
+  border-radius: 30px !important;
 }
 .card-bg {
-  background-color: #7e411e;
+  background-color: #7e411e !important;
 }
 .extra-card {
   position: relative;
@@ -66,8 +69,10 @@ body {
   border-radius: 30px;
 }
 .card-rounded {
-  border-radius: 30px;
+  border-radius: 30px !important;
 }
+
+/* FAQ */
 .faq-img {
   background-color: #8f6045;
   border-radius: 30px;
@@ -85,4 +90,41 @@ body {
   border-color: #8f604559;
 
   box-shadow: 0 0 0 0.25rem rgb(143 96 69 / 32%);
+}
+
+/* booking */
+.contact-btn {
+  padding: 7px 40px !important;
+  border-radius: 30px !important;
+  background-color: #502913 !important;
+  color: #ffffff;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  transition: 0.5s linear !important;
+}
+.contact-btn:hover {
+  color: #502913 !important;
+  border: 1px solid #502913 !important;
+  border-radius: 30px !important;
+  background-color: #ffffff !important;
+}
+.form-control:focus {
+  color: #502913;
+  background-color: #fff;
+  border-color: #50291336;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(80 41 19 / 24%);
+}
+.form-check-input:checked {
+  background-color: #502913;
+  border-color: #502913;
+}
+.form-check-input:focus {
+  border-color: #50291359;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(80 41 19 / 18%);
+}
+/* footer */
+.footer-color {
+  background-color: #0b0d17 !important;
 }
