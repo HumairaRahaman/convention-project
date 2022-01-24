@@ -131,8 +131,9 @@ body {
 .footer-color {
   background-color: #0b0d17 !important;
 }
-/* media quiry */
+/* media queiry */
 @media (max-width: 576px) {
+  /* hero */
   .theme-btn {
     padding: 5px 10px !important;
 
@@ -152,6 +153,7 @@ body {
     font-size: 10px !important;
     font-weight: 200;
   }
+  /* package */
   .extra-card {
     position: relative;
     top: 0;
@@ -196,6 +198,7 @@ body {
   }
 }
 @media (max-width: 768px) {
+  /* hero */
   .carousel-p {
     font-size: 8px !important;
   }
@@ -216,6 +219,7 @@ body {
   }
 }
 @media (max-width: 992px) {
+  /* hero */
   .carousel-h {
     font-size: 20px !important;
   }
@@ -227,21 +231,20 @@ body {
 
     font-size: 12px !important;
   }
-  .faq-img {
-    max-width: 85% !important;
-  }
   /* package */
-  /* .extra-card {
-    top: -35px !important;
-  } */
   .card-border {
     border-radius: 30px;
   }
   .extra-card {
     top: 0;
   }
+  /* faq */
+  .faq-img {
+    max-width: 85% !important;
+  }
 }
 @media (max-width: 1200px) {
+  /* hero */
   .carousel-h {
     font-size: 30px;
   }
@@ -253,11 +256,13 @@ body {
 
     font-size: 15px;
   }
+  /* faq */
   .faq-img {
     max-width: 75%;
   }
 }
 @media (max-width: 1400px) {
+  /* faq */
   .faq-img {
     max-width: 70%;
   }
