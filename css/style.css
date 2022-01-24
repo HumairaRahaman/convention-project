@@ -56,6 +56,9 @@ body {
   position: relative;
   top: -35px;
 }
+.card-shadow {
+  box-shadow: 1px 1rem 1rem rgb(126 65 30 / 26%);
+}
 .hot-position {
   position: absolute;
   top: -15px;
@@ -127,4 +130,135 @@ body {
 /* footer */
 .footer-color {
   background-color: #0b0d17 !important;
+}
+/* media quiry */
+@media (max-width: 576px) {
+  .theme-btn {
+    padding: 5px 10px !important;
+
+    font-size: 12px !important;
+    font-weight: 400 !important;
+  }
+  .carousel-img {
+    width: 100px;
+    height: 350px;
+  }
+  .carousel-h {
+    font-size: 15px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  .carousel-p {
+    font-size: 10px !important;
+    font-weight: 200;
+  }
+  .extra-card {
+    position: relative;
+    top: 0;
+  }
+  .card-border {
+    border-radius: 30px;
+  }
+  /* faq */
+  [type="button"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  button:not(:disabled),
+  .accordion-item:first-of-type .accordion-button {
+    font-size: 13px;
+  }
+  .accordion-body {
+    font-size: 12px;
+  }
+  /* contact */
+  .contact-p {
+    font-size: 10px !important;
+  }
+  .form-control {
+    font-size: 12px !important;
+  }
+  .form-check {
+    font-size: 12px !important;
+  }
+  .contact-btn {
+    padding: 5px 35px !important;
+
+    font-size: 12px !important;
+  }
+  /* footer */
+  .foter-text {
+    font-size: 10px !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+  .footer-img {
+    justify-content: center !important;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-p {
+    font-size: 8px !important;
+  }
+  .carousel-h {
+    font-size: 28px !important;
+  }
+  .theme-btn {
+    padding: 8px 30px !important;
+
+    font-size: 12px !important;
+  }
+  /* package */
+  .extra-card {
+    top: 0 !important;
+  }
+  .card-border {
+    border-radius: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .carousel-h {
+    font-size: 20px !important;
+  }
+  .carousel-p {
+    font-size: 10px !important;
+  }
+  .theme-btn {
+    padding: 8px 30px !important;
+
+    font-size: 12px !important;
+  }
+  .faq-img {
+    max-width: 85% !important;
+  }
+  /* package */
+  /* .extra-card {
+    top: -35px !important;
+  } */
+  .card-border {
+    border-radius: 30px;
+  }
+  .extra-card {
+    top: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .carousel-h {
+    font-size: 30px;
+  }
+  .carousel-p {
+    font-size: 14px;
+  }
+  .theme-btn {
+    padding: 10px 35px;
+
+    font-size: 15px;
+  }
+  .faq-img {
+    max-width: 75%;
+  }
+}
+@media (max-width: 1400px) {
+  .faq-img {
+    max-width: 70%;
+  }
 }
